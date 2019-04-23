@@ -14,15 +14,19 @@ The gentelmen who published this dataset stated that training images have some n
 If we look at random images from the dataset, we can see that these images are not taken by professionals with many images are over- or under-exposed. Some of the images contain multiple dishes as well. 
 
 Example of under-exposed image
+
 ![](data/1826455.jpg) 
 
 Example of over-exposed image
+
 ![](data/3527595.jpg) 
 
 Example of multiple dishes
+
 ![](data/828660.jpg)
 
 Example of a wrong label for `chicken_wings`!
+
 ![](data/477991.jpg)
 
 The dataset also has intra-class varience which makes it more difficult. Furthermore, there are similartity between some classes which makes it a hard task even for humans. 
