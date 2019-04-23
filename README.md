@@ -36,4 +36,6 @@ All of the above suggestes that this is a really challgenging one.
 
 ## Methodology
 
-
+1. Initial experimentation to read and split the data, perform data augmentation, and choosing the architecture. Detailes are availabe in [this notebook]().
+2. Build, train, and test and model. Details are available in [this notebook]().
+3. Interpretation of the results. 
