@@ -47,6 +47,10 @@ The following summarizes the steps taken to tackle this project:
 
 ## Chanllenges
 
-* Initially, it was difficult to read, label, and split the dataset as it doesn't conform with other popular datasets liek _ImageNet_ or _MNIST_. I've seem many posts online that did lots of preprocessing to bring the dataset to a more popular format, but it didn't make much sence to me. This gave me the chance to dive into the details of fastai's *Datablock* API. I struggled with labeling using *label_from_folder* fuction, which assumed that files are read from a folder while I read it through a dataframe. I raised this issue and was addressed quickly by the fastai team. 
+* Initially, it was difficult to read, label, and split the dataset as it doesn't conform with other popular datasets liek _ImageNet_ or _MNIST_. I've seem many posts online that did lots of preprocessing to bring the dataset to a more popular format, but it didn't make much sence to me. Especially, given the large size of the dataset. This gave me the chance to dive into the details of fastai's *Datablock* API. I struggled with labeling using *label_from_folder* fuction, which assumed that files are read from a folder while I read it through a dataframe. I raised this issue and was addressed quickly by the fastai team. 
 
-* 
+* Chossing the right augmentation parameters was a bit of a hassle, but visually inspecting the results helped a lot. 
+
+* Fune tuning certain parameters like dropout rate and weight decay took some time and had a great effect on the performance of the model.
+
+
