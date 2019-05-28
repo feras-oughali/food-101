@@ -4,14 +4,14 @@
 
 ## Introduction
 
-The purpose of this project is to classify images of food dishes into 101 classes. This is a huge dataset with 101000 images. There are 1000 images per class which is splitted into 750 training images and 250 test images.
+The purpose of this project is to classify images of food dishes into 101 classes. This is a huge dataset with 101,000 images. There are 1,000 images per class which is splitted into 750 training images and 250 test images.
 
-## Chanllenges
+## Overview 
 The gentelmen who published this dataset stated that training images have some noise in the form of wrong labels and intense colors.
 
 > We introduce a challenging data set of 101 food categories, with 101'000 images. For each class, 250 manually reviewed test images are provided as well as 750 training images. On purpose, the training images were not cleaned, and thus still contain some amount of noise. This comes mostly in the form of intense colors and sometimes wrong labels. All images were rescaled to have a maximum side length of 512 pixels.
 
-If we look at random images from the dataset, we can see that these images are not taken by professionals with many images are over- or under-exposed. Some of the images contain multiple dishes as well. 
+If we look at some images from the dataset, we can see that these images are not taken by professionals with many images are over-exposed or under-exposed. Some of the images contain multiple dishes as well. 
 
 ![](data/2889465.jpg) ![](data/1826455.jpg)
 
@@ -23,7 +23,7 @@ If we look at random images from the dataset, we can see that these images are n
 
 ![](data/828660.jpg)
 
-*Example of multiple dishes*
+*Example of image with multiple dishes*
 
 ![](data/477991.jpg)
 
@@ -36,6 +36,11 @@ All of the above suggestes that this is a really challgenging one.
 
 ## Methodology
 
+The following summarizes the steps taken to tackle this project:
 1. Initial experimentation to read and split the data, perform data augmentation, and choosing the architecture. Detailes are availabe in [this notebook]().
 2. Build, train, and test and model. Details are available in [this notebook]().
-3. Interpretation of the results. 
+3. Interpretation of the results. Details are available in [here]()
+
+## Chanllenges
+
+
