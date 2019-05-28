@@ -32,6 +32,10 @@ If we look at some images from the dataset, we can see that these images are not
 
 The dataset also has intra-class varience which makes it more difficult. Furthermore, there are similartity between some classes which makes it a hard task even for humans. 
 
+![](data/f1.jpg) ![](data/f2.jpg) ![](data/f3.jpg) ![](data/f4.jpg) 
+
+*Sample of images for _falafel_*
+
 All of the above suggestes that this is a really challgenging one.
 
 ## Methodology
@@ -43,4 +47,6 @@ The following summarizes the steps taken to tackle this project:
 
 ## Chanllenges
 
+* Initially, it was difficult to read, label, and split the dataset as it doesn't conform with other popular datasets liek _ImageNet_ or _MNIST_. I've seem many posts online that did lots of preprocessing to bring the dataset to a more popular format, but it didn't make much sence to me. This gave me the chance to dive into the details of fastai's *Datablock* API. I struggled with labeling using *label_from_folder* fuction, which assumed that files are read from a folder while I read it through a dataframe. I raised this issue and was addressed quickly by the fastai team. 
 
+* 
