@@ -43,11 +43,11 @@ All of the above suggestes that this is a really challgenging one.
 The following summarizes the steps taken to tackle this project:
 1. Initial experimentation to read and split the data, perform data augmentation, and choosing the architecture. Detailes are availabe in [this notebook]().
 2. Build, train, and test and model. Details are available in [this notebook]().
-3. Interpretation of the results. Details are available in [here]()
+3. Interpretation of the results. Details are available in [here]().
 
 ## Chanllenges
 
-* Initially, it was difficult to read, label, and split the dataset as it doesn't conform with other popular datasets liek _ImageNet_ or _MNIST_. I've seem many posts online that did lots of preprocessing to bring the dataset to a more popular format, but it didn't make much sence to me. Especially, given the large size of the dataset. This gave me the chance to dive into the details of fastai's *Datablock* API. I struggled with labeling using *label_from_folder* fuction, which assumed that files are read from a folder while I read it through a dataframe. I raised this issue and was addressed quickly by the fastai team. 
+* Initially, it was difficult to read, label, and split the dataset as it doesn't conform with other popular datasets like _ImageNet_ or _MNIST_. I've seem many posts online that did lots of preprocessing to bring the dataset to a more popular format, but it didn't make much sence to me. Especially, given the large size of the dataset. This gave me the chance to dive into the details of fastai's *Datablock* API. I struggled with labeling using *label_from_folder* fuction, which assumed that files are read from a folder while I read it through a dataframe. I raised this issue and was addressed quickly by the fastai team. 
 
 * Chossing the right augmentation parameters was a bit of a hassle, but visually inspecting the results helped a lot. 
 
