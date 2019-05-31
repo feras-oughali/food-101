@@ -41,7 +41,7 @@ All of the above suggestes that this is a really challgenging one.
 ## Methodology
 
 The following summarizes the steps taken to tackle this project:
-1. Initial experimentation to read and split the data, perform data augmentation, and choosing the architecture. Detailes are availabe in [this notebook]().
+1. Initial experimentation to read and split the data, perform data augmentation, and choosing the architecture. Detailes are availabe in [this notebook](./00_Fellowship_Food_101.ipynb).
 2. Build, train, and test and model. Details are available in [this notebook]().
 3. Interpretation of the results. Details are available in [here]().
 
