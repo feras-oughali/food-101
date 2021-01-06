@@ -6,6 +6,8 @@
 
 The purpose of this project is to classify images of food dishes into 101 classes. This is a huge dataset with 101,000 images. There are 1,000 images per class which is split into 750 training images and 250 test images.
 
+88.2% Top-1 accuracy, 97.9% Top-5 accuracy was achieved using and optimizing multiple data augmentation techniques, mixup, and inference with TTA. 
+
 ## Overview 
 The gentlemen who published this dataset stated that training images have some noise in the form of wrong labels and intense colors.
 
